@@ -1,6 +1,6 @@
-const sherly = '../image/sherly.jpg'
-const Rizal = '../image/Rizal.jpg'
-const Anas = '../image/Anas.jpg'
+const sherly = 'image/sherly.jpg'
+const Rizal = 'image/Rizal.jpg'
+const Anas = 'image/Anas.jpg'
 
 let datas = [
   {
