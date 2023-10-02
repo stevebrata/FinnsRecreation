@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: grey;
+}
+
+nav,
+nav ul,
+footer,
+footer ul {
+  display: flex;
+}
+
+nav,
+footer {
+  padding: 0 10px;
+  justify-content: space-between;
+}
+
+footer {
+  align-items: center;
+}
+
+footer ul {
+  font-size: smaller;
+}
+
+nav img {
+  width: 200px;
+  margin-top: -10px;
+}
+
+ul {
+  gap: 10px;
+  list-style: none;
+  font-size: larger;
+  align-items: center;
+}
+
+.carousel img {
+  height: 500px;
+}
+
+#Whyus p {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
+#Testimonial {
+  display: flex;
+  justify-content: space-around;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  color: white;
+}
+
+#Contactus {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+section h3 {
+  text-align: center;
+  color: teal;
+}
+
+section {
+
+  padding: 10px 0;
+}
+
+
+i:hover {
+  color: teal;
+}
+
+/* responsive */
+@media (max-width: 800px) {
+  #Testimonial {
+    flex-wrap: wrap;
+  }
+
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    display: none;
+  }
+
+  .carousel img {
+    height: 250px;
+  }
+
+  #Testimonial,
+  #Contactus,
+  footer {
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+}
